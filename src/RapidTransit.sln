@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A4C663
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RapidTransit.Tests", "RapidTransit.Tests\RapidTransit.Tests.csproj", "{F7430694-6B43-41BB-B23D-962C9EE8D179}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RapidTransit.Integration.RabbitMq", "RapidTransit.Integration.RabbitMq\RapidTransit.Integration.RabbitMq.csproj", "{A25A6852-3430-4E8B-A364-31D70B8A159F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +46,10 @@ Global
 		{F7430694-6B43-41BB-B23D-962C9EE8D179}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7430694-6B43-41BB-B23D-962C9EE8D179}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7430694-6B43-41BB-B23D-962C9EE8D179}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A25A6852-3430-4E8B-A364-31D70B8A159F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A25A6852-3430-4E8B-A364-31D70B8A159F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A25A6852-3430-4E8B-A364-31D70B8A159F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A25A6852-3430-4E8B-A364-31D70B8A159F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

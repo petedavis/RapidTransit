@@ -1,10 +1,12 @@
-﻿namespace RapidTransit.Tests.Configuration
+﻿
+namespace RapidTransit.Tests.Configuration
 {
     using System.Collections.Generic;
     using Core;
     using Core.Configuration;
     using Core.Mapping;
     using Core.Reflection;
+    using Integration.RabbitMq;
     using NUnit.Framework;
 
 

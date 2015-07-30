@@ -1,3 +1,5 @@
+using System.Diagnostics;
+
 namespace RapidTransit.Core.Services
 {
     using System;
@@ -83,6 +85,9 @@ namespace RapidTransit.Core.Services
                                 foreach (SubscriptionBusServiceBuilderConfigurator builderConfigurator in _configurators)
                                     s.AddConfigurator(builderConfigurator);
                             });
+                        
+                        if (Debugger.IsAttached)
+                            x.SetPurgeOnStartup(true);
                     });
 
                 OnStarted(bus);

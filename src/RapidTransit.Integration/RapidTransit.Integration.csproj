@@ -64,16 +64,8 @@
       <HintPath>..\packages\MassTransit.Scheduling.1.2.10\lib\net40-full\MassTransit.Scheduling.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="MassTransit.Transports.RabbitMq, Version=2.10.0.0, Culture=neutral, PublicKeyToken=b8e0e9f2f1e657fa, processorArchitecture=MSIL">
-      <HintPath>..\packages\MassTransit.RabbitMQ.2.10.0\lib\net40\MassTransit.Transports.RabbitMq.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="RabbitMQ.Client, Version=3.4.3.0, Culture=neutral, PublicKeyToken=89e7d7c5feba84ce, processorArchitecture=MSIL">
-      <HintPath>..\packages\RabbitMQ.Client.3.4.3\lib\net35\RabbitMQ.Client.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -92,8 +84,6 @@
     <Compile Include="AutofacStateMachineActivityFactory.cs" />
     <Compile Include="ConfigurationProviderModule.cs" />
     <Compile Include="ContainerBuilderExtensions.cs" />
-    <Compile Include="RabbitMqConfigurationModule.cs" />
-    <Compile Include="RabbitMqTransportConfigurator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

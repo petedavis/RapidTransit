@@ -44,6 +44,10 @@
       <Project>{7a30c7b8-db42-4db3-ab21-8c4d8007c507}</Project>
       <Name>RapidTransit.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\RapidTransit.Integration.RabbitMq\RapidTransit.Integration.RabbitMq.csproj">
+      <Project>{A25A6852-3430-4E8B-A364-31D70B8A159F}</Project>
+      <Name>RapidTransit.Integration.RabbitMq</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\SolutionVersion.cs">
