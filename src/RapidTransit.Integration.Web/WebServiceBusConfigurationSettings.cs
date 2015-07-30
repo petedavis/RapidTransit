@@ -32,7 +32,10 @@ namespace RapidTransit.Integration.Web
             if (configurationProvider.TryGetSetting(QueueNameKey, out baseQueueName))
                 return baseQueueName;
 
-            return HostingEnvironment.SiteName.Replace(" ", "_");
+            return HostingEnvironment.SiteName
+                .Replace(" ", "_")
+                .Replace("(", string.Empty)
+                .Replace(")", string.Empty);
         }
     }
 }

@@ -27,6 +27,7 @@ namespace RapidTransit.Integration.Services
                    .SingleInstance();
 
             _container = builder.Build();
+            OnContainerConfigured(_container);
         }
 
         public void Dispose()
@@ -40,5 +41,9 @@ namespace RapidTransit.Integration.Services
         }
 
         protected abstract void ConfigureContainer(ContainerBuilder builder);
+
+        protected virtual void OnContainerConfigured(IContainer container)
+        {
+        }
     }
 }
