@@ -41,6 +41,10 @@
       <HintPath>..\packages\MassTransit.2.10.0\lib\net40\MassTransit.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="MassTransit.Courier, Version=2.10.37.0, Culture=neutral, PublicKeyToken=b8e0e9f2f1e657fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\MassTransit.Courier.2.10.0\lib\net40-full\MassTransit.Courier.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="MassTransit.Transports.AzureServiceBus, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\MassTransit.AzureServiceBus.0.4.1\lib\net40\MassTransit.Transports.AzureServiceBus.dll</HintPath>

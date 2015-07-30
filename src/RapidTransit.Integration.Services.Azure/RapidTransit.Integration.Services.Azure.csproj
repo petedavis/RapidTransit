@@ -30,11 +30,23 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Autofac, Version=3.5.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.3.5.2\lib\net40\Autofac.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Automatonymous, Version=1.2.70.0, Culture=neutral, PublicKeyToken=b800c4cfcdeea87b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Automatonymous.1.2.9\lib\net40\Automatonymous.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Magnum">
       <HintPath>..\packages\Magnum.2.1.3\lib\NET40\Magnum.dll</HintPath>
     </Reference>
     <Reference Include="MassTransit, Version=2.10.0.0, Culture=neutral, PublicKeyToken=b8e0e9f2f1e657fa, processorArchitecture=MSIL">
       <HintPath>..\packages\MassTransit.2.10.0\lib\net40\MassTransit.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MassTransit.Courier, Version=2.10.37.0, Culture=neutral, PublicKeyToken=b8e0e9f2f1e657fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\MassTransit.Courier.2.10.0\lib\net40-full\MassTransit.Courier.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.WindowsAzure.ServiceRuntime, Version=2.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -52,6 +64,10 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="Taskell, Version=0.1.2.0, Culture=neutral, PublicKeyToken=b800c4cfcdeea87b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Taskell.0.1.2\lib\net40\Taskell.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Topshelf, Version=3.2.150.0, Culture=neutral, PublicKeyToken=b800c4cfcdeea87b, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Topshelf.3.2.0\lib\net40-full\Topshelf.dll</HintPath>
@@ -75,6 +91,10 @@
     <ProjectReference Include="..\RapidTransit.Integration.Services\RapidTransit.Integration.Services.csproj">
       <Project>{C8603987-50DD-4ECF-A588-ABCA28032625}</Project>
       <Name>RapidTransit.Integration.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RapidTransit.Integration\RapidTransit.Integration.csproj">
+      <Project>{27c8147b-1853-4022-b91b-5bb167c806df}</Project>
+      <Name>RapidTransit.Integration</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>RapidTransit.Integration.RabbitMq</RootNamespace>
-    <AssemblyName>RapidTransit.Integration.RabbitMq</AssemblyName>
+    <AssemblyName>RapidTransit.Integration.RabbitMQ</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
