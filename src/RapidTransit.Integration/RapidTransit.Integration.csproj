@@ -32,45 +32,57 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Autofac">
-      <HintPath>..\packages\Autofac.3.3.0\lib\net40\Autofac.dll</HintPath>
+    <Reference Include="Autofac, Version=3.5.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.3.5.2\lib\net40\Autofac.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Automatonymous">
-      <HintPath>..\packages\Automatonymous.1.2.5\lib\net40\Automatonymous.dll</HintPath>
+    <Reference Include="Automatonymous, Version=1.2.70.0, Culture=neutral, PublicKeyToken=b800c4cfcdeea87b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Automatonymous.1.2.9\lib\net40\Automatonymous.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Automatonymous.MassTransitIntegration">
-      <HintPath>..\packages\Automatonymous.MassTransit.1.2.5\lib\net40\Automatonymous.MassTransitIntegration.dll</HintPath>
+    <Reference Include="Automatonymous.MassTransitIntegration, Version=1.2.70.0, Culture=neutral, PublicKeyToken=b800c4cfcdeea87b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Automatonymous.MassTransit.1.2.9\lib\net40\Automatonymous.MassTransitIntegration.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Magnum">
-      <HintPath>..\packages\Magnum.2.1.2\lib\NET40\Magnum.dll</HintPath>
+    <Reference Include="Magnum, Version=2.1.3.0, Culture=neutral, PublicKeyToken=b800c4cfcdeea87b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Magnum.2.1.3\lib\NET40\Magnum.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="MassTransit">
-      <HintPath>..\packages\MassTransit.2.9.5\lib\net40\MassTransit.dll</HintPath>
+    <Reference Include="MassTransit, Version=2.10.0.0, Culture=neutral, PublicKeyToken=b8e0e9f2f1e657fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\MassTransit.2.10.0\lib\net40\MassTransit.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="MassTransit.AutofacIntegration">
-      <HintPath>..\packages\MassTransit.Autofac.2.9.5\lib\net40\MassTransit.AutofacIntegration.dll</HintPath>
+    <Reference Include="MassTransit.AutofacIntegration, Version=2.10.0.0, Culture=neutral, PublicKeyToken=b8e0e9f2f1e657fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\MassTransit.Autofac.2.10.0\lib\net40\MassTransit.AutofacIntegration.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="MassTransit.Courier">
-      <HintPath>..\packages\MassTransit.Courier.2.9.5\lib\net40-full\MassTransit.Courier.dll</HintPath>
+    <Reference Include="MassTransit.Courier, Version=2.10.37.0, Culture=neutral, PublicKeyToken=b8e0e9f2f1e657fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\MassTransit.Courier.2.10.0\lib\net40-full\MassTransit.Courier.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="MassTransit.Scheduling">
-      <HintPath>..\packages\MassTransit.Scheduling.1.2.5\lib\net40-full\MassTransit.Scheduling.dll</HintPath>
+    <Reference Include="MassTransit.Scheduling, Version=1.2.30.0, Culture=neutral, PublicKeyToken=b8e0e9f2f1e657fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\MassTransit.Scheduling.1.2.10\lib\net40-full\MassTransit.Scheduling.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="MassTransit.Transports.RabbitMq">
-      <HintPath>..\packages\MassTransit.RabbitMQ.2.9.5\lib\net40\MassTransit.Transports.RabbitMq.dll</HintPath>
+    <Reference Include="MassTransit.Transports.RabbitMq, Version=2.10.0.0, Culture=neutral, PublicKeyToken=b8e0e9f2f1e657fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\MassTransit.RabbitMQ.2.10.0\lib\net40\MassTransit.Transports.RabbitMq.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.5.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="RabbitMQ.Client">
-      <HintPath>..\packages\RabbitMQ.Client.3.2.1\lib\net30\RabbitMQ.Client.dll</HintPath>
+    <Reference Include="RabbitMQ.Client, Version=3.4.3.0, Culture=neutral, PublicKeyToken=89e7d7c5feba84ce, processorArchitecture=MSIL">
+      <HintPath>..\packages\RabbitMQ.Client.3.4.3\lib\net35\RabbitMQ.Client.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml" />
-    <Reference Include="Taskell">
+    <Reference Include="Taskell, Version=0.1.2.0, Culture=neutral, PublicKeyToken=b800c4cfcdeea87b, processorArchitecture=MSIL">
       <HintPath>..\packages\Taskell.0.1.2\lib\net40\Taskell.dll</HintPath>
+      <Private>True</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -84,6 +96,7 @@
     <Compile Include="RabbitMqTransportConfigurator.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
